@@ -1,0 +1,158 @@
+/**
+ * Reset
+ */
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizelegibility;
+}
+
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul,
+div {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  color: #333;
+  font: normal 1rem/1.15 PingFang SC, -apple-system, STHeitiSC-Light,
+    'Microsoft Yahei', 'Hiragino Sans GB', Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 400;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+a,
+button,
+input,
+select,
+textarea,
+label {
+  -webkit-tap-highlight-color: transparent;
+}
+
+input,
+textarea,
+button {
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+input,
+textarea {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  html {
+    font-size: 13.65px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 390px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 413px) {
+  html {
+    font-size: 16.64px;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 640px) {
+  html {
+    font-size: 18.4px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 27.31px;
+  }
+}
